@@ -79,6 +79,10 @@ const Pokemon = ({
               <td className="w-8 md:w-14">HP</td>
               <td>{data.maxHP}</td>
             </tr>
+            <tr>
+              <td className="w-8 md:w-14">CP</td>
+              <td>{data.maxCP}</td>
+            </tr>
           </tbody>
         </table>
       </div>
